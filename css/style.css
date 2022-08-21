@@ -164,11 +164,6 @@ ul>li>i{
   color: #401be4;
 }
 
-#partiedroite{
-  background-image: url("../Image/white-cube-pattern-4k-bu-2048x2048.jpg");
-opacity: 0.9;
-}
-
 #hov:hover{
 	padding: 10px;
 	border-radius: 10px;
