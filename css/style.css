@@ -28,7 +28,7 @@ width: 80%;
 .apropos>img{
   border-radius: 50px;
   width: 130px;
-  margin-left: 100px;
+  margin-left: 80px;
 }
 
 ul>li{
@@ -36,7 +36,7 @@ ul>li{
   padding: 8px;
 }
 ul>li>i{
-  color: black;
+  color: #4c2cdb;
   background-color: transparent;
   font-size: 1.2em;
 }
@@ -64,7 +64,7 @@ ul>li>i{
 
     
 .html5 {
-  background-color: black;
+  background-color: #4c2cdb;
   color: white;
   padding-right: 180px;
   text-align: right;
@@ -73,7 +73,7 @@ ul>li>i{
 }
 
 .css {
-  background-color: black;
+  background-color: #4c2cdb;
   color: white;
   padding-right: 160px;
   text-align: right;
@@ -82,7 +82,7 @@ ul>li>i{
 }
 
 .boots {
-  background-color: black;
+  background-color: #4c2cdb;
   color: white;
   padding-right: 140px;
   text-align: right;
@@ -92,7 +92,7 @@ ul>li>i{
 
   
     .java {
-      background-color: black;
+      background-color: #4c2cdb;
       color: white;
       padding-right: 100px;
       text-align: right;
@@ -169,3 +169,18 @@ ul>li>i{
 opacity: 0.9;
 }
 
+#hov:hover{
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px #401be4;
+	transform: scale(1.01);
+	transition-property: "transform";
+	transition-duration: 0.3s;
+	transition-delay: 0.3s;
+}
+
+.second ul>li>span{
+  color: #401be4;
+  font-weight: bolder;
+  text-decoration: underline;
+}
