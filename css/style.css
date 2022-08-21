@@ -1,0 +1,171 @@
+#partiegauche{
+  background-color: rgba(238, 206, 238, 0.192);
+  padding-top: 25px;
+  width: 30%;
+  padding-left: 25px;
+  padding-right: 25px;
+  
+}
+#partiedroite{
+  width: 70%;
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.container{
+ display:flex;
+margin: 20px 100px;
+border-radius: 10px;
+width: 80%;
+
+ box-shadow: 5px 5px 5px #ccc5c5;
+
+}
+
+/*---------------------------------------------A PROPOS---------------------------------------------------*/
+
+.apropos>img{
+  border-radius: 50px;
+  width: 130px;
+  margin-left: 100px;
+}
+
+ul>li{
+  list-style:none;
+  padding: 8px;
+}
+ul>li>i{
+  color: black;
+  background-color: transparent;
+  font-size: 1.2em;
+}
+
+/*----------------------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------Compétences---------------------------------------------------*/
+
+/*----------------------------------------------------------------------------------------------------------*/
+#tiré>h2::after {
+  content: "";
+	display: block;
+	border-bottom: 1px solid #9381e6;
+	padding-top: 5px;
+  width: 100%;
+}
+#tiré>p::after {
+  content: "";
+	display: block;
+	border-bottom: 1px solid #9381e6;
+	padding-top: 5px;
+  width: 50%;
+}
+
+
+    
+.html5 {
+  background-color: black;
+  color: white;
+  padding-right: 180px;
+  text-align: right;
+  font-size: 15px;
+  border-radius: 0px;
+}
+
+.css {
+  background-color: black;
+  color: white;
+  padding-right: 160px;
+  text-align: right;
+  font-size: 15px;
+  border-radius: 0px;
+}
+
+.boots {
+  background-color: black;
+  color: white;
+  padding-right: 140px;
+  text-align: right;
+  font-size: 15px;
+  border-radius: 0px;
+}
+
+  
+    .java {
+      background-color: black;
+      color: white;
+      padding-right: 100px;
+      text-align: right;
+      font-size: 15px;
+      border-radius: 0px;
+    }
+
+/*----------------------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------Partie droite---------------------------------------------------*/
+
+/*----------------------------------------------------------------------------------------------------------*/
+.first>h1, .first>h2{
+  text-align: center;
+}
+    
+.first>h1::after {
+  content: "";
+	display: block;
+	border-bottom: 1px solid #100153;
+
+	padding-top: 5px;
+}
+
+.first>h1::before {
+	display: block;
+	border-bottom: 1px solid #100153;
+	content: "";
+	padding-top: 5px;
+}
+.first>h2::after {
+  content: "";
+	display: block;
+	border-bottom: 1px solid #100153;
+	padding-top: 5px;
+  width: 60%;
+  margin-left:  125px;
+}
+.first>h1{
+  color: black;
+  font-size: 1.8em;
+}
+.first>h2{
+  color: #401be4;
+  font-size: 1.3em;
+}
+
+.second>h2::after {
+  content: "";
+	display: block;
+	border-bottom: 1px solid #100153;
+
+	padding-top: 5px;
+}
+
+.second>h3::after {
+  content: "";
+	display: block;
+	border-bottom: 1px solid #100153;
+  width: 70%;
+	padding-top: 5px;
+}
+
+.second>h2{
+  font-size: 1.4em;
+}
+.second>h3{
+  font-size: 1em;
+  color: #401be4;
+}
+
+#partiedroite{
+  background-image: url("/Image/white-cube-pattern-4k-bu-2048x2048.jpg");
+opacity: 0.9;
+}
+
