@@ -179,3 +179,19 @@ ul>li>i{
   font-weight: bolder;
   text-decoration: underline;
 }
+
+.comp>h2,.langue>h2,.perso>h2,.centre>h2::after {
+  content: "";
+	display: block;
+	border-bottom: 1px solid #100153;
+  width: 100%;
+	padding-top: 5px;
+}
+.comp>p::after {
+  content: "";
+	display: block;
+	border-bottom: 1px solid #100153;
+  width: 75%;
+	padding-top: 5px;
+}
+
